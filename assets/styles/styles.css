@@ -150,6 +150,12 @@ footer {
     max-width: 650px;
   }
 
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .img-wrapper,
   .info {
     width: 50%;

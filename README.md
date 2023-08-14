@@ -4,8 +4,6 @@ Checkout out the live site [here](https://elorenn.github.io/Product-Preview-Card
 
 ![Product Preview Card Component ](assets/design/desktop-design.jpg)
 
-![Product Preview Card Component active state](assets/design/active-states.jpg)
-
 ![Product Preview Card Component mobile state](assets/design/mobile-design.jpg)
 
 ### Built with

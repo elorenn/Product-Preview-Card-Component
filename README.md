@@ -1,6 +1,6 @@
-# Product Preview Card Component 
+# Product Preview Card Component
 
-Checkout out the live site [here](#).
+Checkout out the live site [here](https://elorenn.github.io/Product-Preview-Card-Component/).
 
 ![Product Preview Card Component ](assets/design/desktop-design.jpg)
 
@@ -16,4 +16,4 @@ Checkout out the live site [here](#).
 - CSS Grid
 - Mobile-first workflow
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.

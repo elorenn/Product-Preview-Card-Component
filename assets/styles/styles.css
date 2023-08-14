@@ -26,7 +26,11 @@ body {
 }
 
 .info {
-  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.img-wrapper {
+  overflow: hidden;
 }
 
 img {
@@ -62,6 +66,10 @@ h1,
   line-height: 2rem;
 }
 
+.price {
+  margin: 1.5rem 0 1.3rem 0px;
+}
+
 .price span {
   color: var(--dark-cyan);
 }
@@ -78,9 +86,8 @@ s {
   border-radius: 10px;
   overflow: hidden;
   text-align: start;
-  max-width: 21.5rem;
-  min-height: 38rem;
   cursor: default;
+  margin: 1rem;
 }
 
 button {
@@ -113,8 +120,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1rem 0;
-  background-color: var(--cream);
-  display: none;
+  backdrop-filter: blur(5px);
 }
 
 .attribution {
@@ -125,4 +131,32 @@ footer {
 
 .attribution a {
   color: var(--dark-cyan);
+}
+
+@media (max-width: 450px) {
+  .card {
+    max-width: 21.5rem;
+    min-height: 38rem;
+  }
+
+  .img-wrapper {
+    max-height: 25rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .card {
+    display: flex;
+    max-width: 650px;
+  }
+
+  .img-wrapper,
+  .info {
+    width: 50%;
+  }
+
+  .img-wrapper img {
+    width: auto;
+    height: 100%;
+  }
 }

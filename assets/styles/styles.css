@@ -51,16 +51,25 @@ h2 {
   letter-spacing: 0.3rem;
 }
 
+h1 {
+  margin: 1rem 0;
+}
+
 h1,
 .price {
   font-family: var(--font-1);
   font-size: 2rem;
   line-height: 2rem;
-  margin: 1rem 0;
 }
 
-.price {
+.price span {
   color: var(--dark-cyan);
+}
+
+s {
+  vertical-align: top;
+  margin-left: 1rem;
+  font-size: 0.8rem;
 }
 
 .card {
@@ -80,12 +89,17 @@ button {
   cursor: pointer;
   width: 100%;
   padding: 1em 0;
-  font-size: 12px;
   margin: 1em 0;
+  font-size: 14px;
   font-weight: 900;
   background-color: var(--dark-cyan);
   border-radius: 8px;
   color: var(--white);
+}
+
+button img {
+  vertical-align: bottom;
+  margin-right: 0.7rem;
 }
 
 footer {

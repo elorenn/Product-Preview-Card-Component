@@ -97,6 +97,11 @@ button {
   color: var(--white);
 }
 
+button:hover,
+button:focus {
+  background-color: hsl(158, 40%, 20%);
+}
+
 button img {
   vertical-align: bottom;
   margin-right: 0.7rem;
